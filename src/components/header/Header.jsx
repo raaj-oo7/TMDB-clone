@@ -55,11 +55,11 @@ function Header() {
               value="tv"
               menubarItem={["Popular", "Airing Today", "On TV", "Top Rated"]}
             />
-            {/* <NavbarMenu title="People" menubarItem={["Popular People"]} />
+            <NavbarMenu title="People" menubarItem={["Popular People"]} />
             <NavbarMenu
               title="More"
               menubarItem={["Discussion", "Leaderboard", "Support", "API"]}
-            /> */}
+            />
           </ul>
         </div>
         <div className="navbar_content_right">

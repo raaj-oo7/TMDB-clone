@@ -9,30 +9,25 @@
   transition: linear 0.3s;
   z-index: 10;
 }
-
 .navbar .navbar__toggle {
   display: none;
 }
-
 .navbar .navbar_content {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1300px;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
 }
-
 .navbar .navbar_content .navbar_content_left {
   display: flex;
   align-items: center;
 }
-
 .navbar .navbar_content .navbar_content_left .logo {
   margin-right: 16px;
   width: 154px;
   height: 20px;
 }
-
 .navbar .navbar_content .navbar_content_left .nav_links {
   display: flex;
   list-style: none;
@@ -42,24 +37,20 @@
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 600;
 }
-
 .navbar .navbar_content .navbar_content_right {
   display: flex;
 }
-
 .navbar .navbar_content .navbar_content_right .nav_links {
   display: flex;
   align-items: center;
   list-style: none;
   color: white;
 }
-
 .navbar .navbar_content .navbar_content_right .nav_links .nav_item .nav_link {
   font-weight: 600;
   text-decoration: none;
   color: white;
 }
-
 .navbar .navbar_content .navbar_content_right .nav_links .nav_item .translate {
   display: flex;
   align-items: center;
@@ -75,23 +66,19 @@
   text-transform: uppercase;
   font-weight: normal;
 }
-
 .navbar .navbar_content .navbar_content_right .nav_links .nav_item .translate:hover {
   background-color: white;
   color: black;
 }
-
 .navbar .navbar_content .navbar_content_right .nav_links .nav_item .search {
   display: flex;
 }
 
 @media screen and (max-width: 872px) {
-
   .navbar .navbar_content .navbar_content_left .nav_links,
   .navbar .navbar_content .navbar_content_right .nav_links {
     display: none;
   }
-
   .navbar .navbar__toggle {
     display: block;
     padding-right: 40px;
@@ -100,7 +87,6 @@
     position: relative;
     cursor: pointer;
   }
-
   .navbar .sidebar {
     position: fixed;
     top: 63px;
@@ -115,26 +101,21 @@
     padding-right: 40px;
     color: white;
   }
-
   .navbar .sidebar .sidebar_links {
     list-style: none;
   }
-
   .navbar .sidebar .sidebar_links .sidebar_link {
     padding: 8px 0px;
   }
 }
-
 @media screen and (max-width: 500px) {
   .navbar .navbar_content {
     padding: 0 20px;
   }
-
   .navbar .navbar__toggle {
     padding-right: 20px;
   }
-
   .navbar .sidebar {
     padding-right: 20px;
   }
-}
+}/*# sourceMappingURL=Header.css.map */

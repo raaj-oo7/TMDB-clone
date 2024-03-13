@@ -1,0 +1,39 @@
+.new_index {
+  background-image: linear-gradient(to bottom right, #221d93 0%, #4958ab 30%, #91ced8 100%);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.content_wrapper {
+  padding: 30px 40px;
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.award-list-button {
+  margin-top: 20px;
+}
+
+.winner-list {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 600;
+  border: 2px solid #fff;
+  padding: 8px 16px;
+  transition: linear 0.1s;
+  text-decoration: none;
+}
+
+.fa-spinner {
+  width: 25px;
+}/*# sourceMappingURL=award.css.map */
