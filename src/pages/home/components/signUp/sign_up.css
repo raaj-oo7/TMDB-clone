@@ -1,0 +1,95 @@
+section.inner_content.bg_image.community {
+  background-image: url(https://media.themoviedb.org/t/p/w1920_and_h800_multi_faces_filter\(duotone,190235,ad47dd\)/lMnoYqPIAVL0YaLP5YjRy7iwaYv.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.sign-up {
+  margin-bottom: 30px;
+}
+
+.signUP-title {
+  font-size: 2em;
+  font-weight: 700;
+  padding: 0 20px 0 0;
+}
+
+.wrapper-column {
+  width: 100%;
+  padding: 30px 40px;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.column {
+  width: 100%;
+}
+
+.column_header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.column_content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+section.inner_content.bg_image.community div.column_content div.column:first-of-type {
+  width: 65%;
+  margin-right: 40px;
+}
+
+section.inner_content.bg_image.community div.column_content div.column {
+  width: auto;
+  margin: 0;
+}
+
+section.inner_content.bg_image.community p {
+  font-size: 1.2em;
+}
+
+.button {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 1.2em;
+}
+
+em {
+  opacity: 0.7;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+p,
+li {
+  text-align: start;
+}
+
+section.inner_content.bg_image.community div.column_content div.column ul li {
+  opacity: 0.8;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+.rounded-button {
+  background-color: #805be7;
+  border: 2px solid #805be7;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.9em;
+  padding: 8px 16px;
+  font-weight: 600;
+  text-decoration: none;
+}/*# sourceMappingURL=sign_up.css.map */

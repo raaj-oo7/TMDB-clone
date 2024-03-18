@@ -1,0 +1,78 @@
+.trailer_model {
+    width: 75%;
+    height: 40vw;
+    min-height: 300px;
+    position: fixed;
+    overflow: hidden;
+    .trailer_model_action {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgb(77, 77, 77);
+      color: white;
+      border-bottom: 1px solid gray;
+      padding: 10px;
+  
+      .img_wrapper {
+        display: flex;
+        padding: 5px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: linear 0.2s;
+        img {
+          width: 16px;
+          height: 16px;
+          filter: invert(1);
+        }
+        &:hover {
+          background-color: rgb(48, 48, 48);
+        }
+      }
+    }
+    iframe {
+      width: 100%;
+      height: calc(100% - 53px);
+      border: none;
+    }
+  
+    .trailer_not_found {
+      background: rgb(77, 77, 77);
+      height: calc(100% - 53px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 10px;
+      h1 {
+        color: white;
+      }
+    }
+  }
+  
+  .popperTrailer {
+    width: 100%;
+    height: 100%;
+    position: fixed !important;
+    top: 0;
+    background: linear-gradient(
+      to right,
+      rgb(167, 166, 166) 150px,
+      rgba(104, 103, 103, 0.84) 100%
+    );
+    border: none;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .trailer_model .trailer_not_found h1 {
+      font-size: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .trailer_model .trailer_not_found h1 {
+      font-size: 20px;
+    }
+  }
