@@ -87,7 +87,7 @@ function LeftPanel({ movieDetail }) {
               }`}
               alt=""
             />
-            {/* <div className="content">
+            <div className="content">
               <div className="season_header">
                 <h2>
                   {movieDetail?.seasons?.[movieDetail.seasons.length - 1].name}
@@ -136,7 +136,7 @@ function LeftPanel({ movieDetail }) {
                   )
                 </span>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       )}
@@ -149,7 +149,7 @@ function LeftPanel({ movieDetail }) {
             </p>
           </div>
         </div>
-        {/* {allReviews?.length > 0 ? (
+        {allReviews?.length > 0 ? (
           <div className="content">
             <div className="review_header">
               <div className="avatar">
@@ -186,9 +186,9 @@ function LeftPanel({ movieDetail }) {
             We don't have any reviews for{" "}
             {movieDetail.title || movieDetail.name}.
           </p>
-        )} */}
+        )}
       </div>
-      {/* <div className="recommendations_wrapper">
+      <div className="recommendations_wrapper">
         <h3 className="title">Recommendations</h3>
         {allRecommendations.length > 0 ? (
           <Scroller
@@ -204,7 +204,7 @@ function LeftPanel({ movieDetail }) {
             movies you've seen.
           </p>
         )}
-      </div> */}
+      </div>
     </div>
   );
 }
