@@ -16,18 +16,17 @@
 }
 .trailer_model .trailer_model_action .img_wrapper {
   display: flex;
-  padding: 5px;
+  padding: 3px;
   border-radius: 50%;
   cursor: pointer;
   transition: linear 0.2s;
 }
 .trailer_model .trailer_model_action .img_wrapper img {
-  width: 16px;
-  height: 16px;
-  filter: invert(1);
+  width: 22px;
+  height: 22px;
 }
 .trailer_model .trailer_model_action .img_wrapper:hover {
-  background-color: rgb(48, 48, 48);
+  background-color: #303030;
 }
 .trailer_model iframe {
   width: 100%;
