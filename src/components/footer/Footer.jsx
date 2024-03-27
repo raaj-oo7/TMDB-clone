@@ -114,7 +114,7 @@ function Footer() {
             </li>
             <li className="column_item">
               <a href="*" className="column_link">
-                DMCA Takedown Request
+                DMCA Policy
               </a>
             </li>
           </ul>
